@@ -28,8 +28,8 @@ const postSchema = mongoose.Schema({
     },
     status:{
         type:String,
-        required:false
+        required:true
     }
 })
 
-module.exports = mongoose.model('Post', postSchema);
+module.exports = mongoose.model('Data', postSchema);
